@@ -2,7 +2,6 @@ require 'rubygems'
 require 'bundler'
 require 'sinatra'
 require 'sinatra/reloader' if development?
-require 'bundler'
 require 'sinatra/json'
 require 'sinatra/cookies'
 require 'sinatra/flash'
