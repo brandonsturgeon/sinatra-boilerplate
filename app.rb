@@ -13,10 +13,9 @@ require './helpers'
 Bundler.require(:default)
 
 configure do
-	enable :sessions
-	set :json_encoder, :to_json
-	set :erb, :layout => :layout
-
+  enable :sessions
+  set :json_encoder, :to_json
+  set :erb, :layout => :layout
 end
 
 before do
